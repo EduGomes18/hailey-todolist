@@ -1,0 +1,25 @@
+.body {
+  display: flex;
+  padding: 30px 15px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+  padding: 10px 15px;
+  background-color: #f1f;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu nav {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.menu span:hover {
+  cursor: pointer;
+}
